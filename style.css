@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .head {
+    margin-top: 3px;
+    margin-left: 80px;
+    padding: 8px;
+}
+
+.navbar {
+    margin-top: 4px;
+    padding: 10px;
+    background-color: blue;
+}
+
+.navbar ol {
+    margin-left: 70px;
+}
+
+.navbar ol li {
+    display: inline-block;    
+    margin-right: 10px;
+}
+
+.navbar ol li a {
+    color: #eaeaea;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar ol li a:hover {
+    background-color: darkblue;
+}
+
+main .content {
+    width: 1180px;
+    background-color: #f1f1f1;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.content .hot_up {
+    width: 1180px;
+    background-color: #e1e1e1;
+}
+
+.hot_up .title h4 {
+    padding-top: 8px;
+    margin: 8px 12px;
+    color: blue;
+}
+
+.hot_up .listcard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.hot_up .listcard .card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.hot_up .listcard .card img {
+    max-width: 100%;
+}
+
+.card a {
+    text-decoration: none;
+    color: #222;
+}
+
+.judul,
+.chap {
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.judul {
+    margin-top: 7px;
+}
+
+.chap {
+    margin-top: 12px;
+}
+
+.pro_up {
+    width: 70%;
+    background-color: #e1e1e1;
+}
+
+.content .list_uppro {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.content .title h4 {
+    padding-top: 8px;
+    margin: 8px 12px;
+    color: blue;
+}
+
+.list_uppro .card1 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.card1 img {
+    max-width: 35%;
+}
+
+.card1 .title {
+    display: flex;
+    flex-direction: column;
+}
+
+.card1 ul li {
+    display: inline;
+}
